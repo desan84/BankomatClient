@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выберите вид операции"
+            android:id="@+id/textView" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="30dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Снятие наличных"
+            android:id="@+id/btnRemovalMoney"
+            android:layout_alignLeft="@+id/btnTopPhone" android:layout_centerVertical="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Просмотр баланса"
+            android:id="@+id/reviewBalance"
+            android:layout_alignLeft="@+id/changePassword" android:layout_alignTop="@+id/btnRemovalMoney"/>
+    <Button
+            android:layout_width="103dp"
+            android:layout_height="80dp"
+            android:text="Пополнить мобильный телефон"
+            android:id="@+id/btnTopPhone"
+            android:layout_alignParentLeft="true" android:layout_alignTop="@+id/changePassword"
+            />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Изменить пароль"
+            android:id="@+id/changePassword"
+            android:layout_alignParentRight="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="224dp"/>
+</RelativeLayout>

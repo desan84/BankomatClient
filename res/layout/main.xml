@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Украинский язык"
+            android:id="@+id/btnUkrLan"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true" android:layout_alignParentRight="false"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Русский язык"
+            android:id="@+id/btnRusLan"
+            android:layout_alignLeft="@+id/btnUkrLan" android:layout_above="@+id/btnUkrLan"
+            android:layout_alignRight="@+id/btnUkrLan" android:layout_alignParentTop="false"
+            android:layout_alignParentLeft="false" android:layout_alignParentBottom="false"
+            android:layout_alignParentRight="false"/>
+</RelativeLayout>
+
